@@ -1,0 +1,18 @@
+# Accidental nested clones (never commit a repo inside this repo)
+DevTrails-Phase-1/
+DevTrails-Phase-2/
+
+node_modules/
+.vercel/
+.vercel-cache/
+frontend/.next/
+frontend/tsconfig.tsbuildinfo
+backend/__pycache__/
+**/__pycache__/
+.DS_Store
+*.log
+.env
+.env.*
+
+node_modules/
+.next/
