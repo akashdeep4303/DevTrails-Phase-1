@@ -88,7 +88,7 @@ Phase 3 adds a monitoring-first admin analytics experience for insurers and oper
 
 ```mermaid
 flowchart TD
-  A[/admin/analytics opens] --> B[Fetch insurer analytics]
+  A["Open /admin/analytics"] --> B["Fetch insurer analytics"]
   A --> C[Fetch syndicate insights]
   A --> D[Fetch recent claims]
   A --> E[Fetch behavioral analysis]
